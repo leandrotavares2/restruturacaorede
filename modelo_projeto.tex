@@ -60,7 +60,7 @@
 %% ====================================
 %% ====================================
 
-\lfoot{\footnotesize \texttt{Cabeamento estruturado} \textbullet ~Modelo de projeto}
+\lfoot{\footnotesize \texttt{Projeto de Redes} \textbullet Reestruturação do Cabeamento}
 
 
 \cfoot{}
@@ -96,7 +96,7 @@
 %% ====================================
 %% ====================================
 
-\title{Modelo para um projeto de cabeamento estruturado}					% Title of your article goes here
+\title{Reestruturação de Infraestrutura de Redes}					% Title of your article goes here
 
 %% ====================================
 
@@ -106,7 +106,7 @@
 
 \preauthor{\begin{flushleft}
 					\large \lineskip 0.5em \usefont{OT1}{phv}{b}{sl} \color{DarkRed}}
-\author{Alexandre L'Erario, Fulano de Tal }  	% Author name goes here
+\author{Leandro Tavares, Sidnei Gobetti de Lima }  	% Author name goes here
 
 
 \postauthor{\footnotesize \usefont{OT1}{phv}{m}{sl} \color{Black} 
@@ -133,9 +133,8 @@
 %% mude o resumo  do projeto
 %% ====================================
 %% ====================================
-\initial{E}\textbf{ste modelo exemplifica como um projeto de cabeamento estruturado deve ser elaborado. No projeto real,
-	esta seção deve indicar qual seria o propósito do projeto: reestruturar, criar uma estrura sem uma anterior, apresentar uma estrutura ficticia ou real  etc. Deve também conter sua cobertura (quais elementos este projeto aborda): Levantamento da planta física, Elaboração da planta lógica, Equipamentos passivos da rede (memorial descritivo), Levantamento de quantidade/custo, Plano de Certificação e orçamento.
-	No caso de projetos reais, deve conter também o escopo. No projeto real deve conter quais as atividades serão executadas e quais os responsáveis. Deve apresentar também as restrições que serão cumpridas e um possível acordo de nível de serviço (SLA).}
+\initial{E}\textbf{ste projeto vem propôr uma reestruturação do cabeamento de redes já existente em uma organização fictícia. Buscaremos 
+	definir e implantar as melhores práticas nessa nova estruturação, objetivando um melhor desempenho da rede, qualidade de comunicação e assegurar a confiabilidade na troca de informações na rede.}
 
 %% ====================================
 \begin{figure}
@@ -167,13 +166,25 @@
 %% ====================================
 %% ====================================
 \section{Introdução}
-Explique nesta primeira seção qual seria o perfil do caso. Perfil do cliente, quantidade de colaboradores, quantidade de equipamentos de TI atualmente.
+Será realizado uma reestruturação da rede de uma organização fictícia. Essa empresa atua no ramo alimentício, atendendo as cidades de Cascavel e Curitiba, possuindo um total de 12 filiais distribuídas nessas regiões. Contudo, a reestruturação será realizada apenas em uma filial, situada em Cascavel. Essa filial possui 200 colaboradores atuando em diversas atividades.
 
-Indique também nesta seção o escopo do projeto.
+O parque de informática dispõe de 50 computadores, 5 servidores físicos, 3 switches, 2 controladores para a rede wireless, bem como impressoras e outros periféricos. A organização possui seu datacenter lotado na cidade de Curitiba, dispondo de vários sistemas, incluindo o sistema de ERP, aonde é acessado por terminal service, por todas as filiais.
 
-Apresente um overview do parque tecnológico do caso.
+Os pontos de venda (PDV) realizam a comunicação diretamente com o servidor em Curitiba. O meio de interconexão utilizado para realizar toda a comunicação entre as filiais e o datacenter é fibra óptica, e a comunição interna por cabeamento de cobre.
+
+A reestruturação proposta para a filial de Cascavel em questão, terá o intuito de readequação da estrutura de rede para certificação. Uma vez que o projeto inicial não atingiu os requisitos para a certificação da estrutura. Outro ponto que será incluído no projeto é a implantação de uma estrutura virtual redundante para servidor de arquivos, pois segue um modelo que não atende a necessidade atual da empresa. 
 \subsection{Benefícios}
-Explique quais seriam os benefícios provenientes da execução deste projeto.
+A reestruturação da infraestrutura de rede trará benefícios impactantes, tais como:
+\begin{itemize}
+	\item Desempenho da rede melhorado: A eliminação dos gargalos presentes na rede irá aumentar o desempenho da rede, agilizando ainda mais o trafego de dados.
+	
+	\item Confiabilidade na transferência das informações: Com maior conformidade da infraestrutura, as informações terão maior garantia de entrega ao destino, e assim, aumentando o QoS ( Quality of Service).
+	
+	\item Menor custo de manutenção: Estando com a rede certificada, o custo com manutenções no cabeamento serão praticamente extintos.
+\end{itemize}
+Em decorrência disso, colaboradores podem aumentar sua produtividade, pois os problemas existentes devido a interrupção da comunicação, relacionadas a infraestrutura de rede, serão extremamente reduzidas. Os clientes ficarão mais satisfeitos, e dessa forma, os serviços que serão entregues podem agregar maior valor ao negócio. 
+
+Por conta de tudo isso, a organização terá benefícios de curto a longo prazo, principalmente, econômicos.
 
 
 \section{Estado atual}
@@ -276,70 +287,7 @@ Analisando os pressupostos de \cite{ref3} e \cite{ref4} concluimos que....
 %% ***********************************************************************
 %% === remover daqui =====================================================
 %% ***********************************************************************
-
-\section{Elementos textuais - Alguns exemplos}
-
-Esta seção apresenta exemplos de elementos textuais. \textbf{Remova-a da versão final do texto}.
-
-
-\subsection{Colocar elementos em itens}
-
-Texto antes da lista
-
-\begin{itemize}
-	\item First item in a list 
-	\item Second item in a list 
-	\item Third item in a list
-\end{itemize}
-
-\subsubsection{Uma sub seçao de terceiro nivel}
-
-Exemplo de uma subseção
-
-\subsection{Tabelas}
-
-Utilize o site http://www.tablesgenerator.com/ para elaborar as tabelas de seu trabalho.
-Para adicionar uma tabela utilize: a tag input, passando o arquivo da tabela como parametro
-
-\input{tab2}
-
-Dentro do arquivo você deve definir o label e pode utilizá-lo para referenciar. Exemplo:
-Na tab \ref{tab2} temos a relação de ....
-
-
-Você também pode modificar a tabela manualmente, incluindo, por exemplo h! dentro de sua definição. Veja no exemplo tab2.tex
-
-\subsection{Figuras}
-
-As figuras podem ser no formato PDF, JPG, PNG. Você pode referenciá-las da mesma maneira que tabelas. Exemplo: A figura \ref{fig1} apresenta.....
-
-Não se preocupe o local em que a figura será renderizada em seu texto. Preocupe-se em criar referência para ela, ou seja, toda figura e tabela deve conter pelo menos uma referência no texto.
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{fig1}
-\caption{Exemplo de figura com escala horizontal}
-\label{fig1}
-\end{figure}
-
-
-\begin{figure}
-	\centering
-	\includegraphics[]{fig2}
-	\caption{Exemplo de figura sem escala}
-	\label{fig2}
-\end{figure}
-
-Você pode rotacionar figuras também. Para isso utilize o parâmetro angle=-90. Repare que a escala da figura foi modificada pelo parametro height. Você também pode utilizar scale
-
-\begin{figure}
-	\centering
-	\includegraphics[height=\textwidth,angle=-90]{fig3}
-	\caption{Exemplo de figura rotacionada}
-	\label{fig3}
-\end{figure}
-
-
+..
 %% ***********************************************************************
 %% === ate aqui    =====  ================================================
 %% ***********************************************************************

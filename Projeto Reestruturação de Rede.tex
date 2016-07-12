@@ -133,12 +133,7 @@
 %% mude o resumo  do projeto
 %% ====================================
 %% ====================================
-\initial{E}\textbf{ste projeto vem propôr uma reestruturação do cabeamento de redes já existente em uma organização fictícia. Buscaremos 
-<<<<<<< HEAD:modelo_projeto.tex
-	definir e implantar as melhores práticas nessa nova estruturação, objetivando um melhor desempenho da rede, qualidade de comunicação e assegurar a confiabilidade na troca de informações na rede.}
-=======
-	definir e implantar as melhores práticas nessa nova estruturação, objetivando um melhor desempenho da rede, qualidade de comunicação e assegurar a confiabilidade na troca de informações na rede em questão.}
->>>>>>> 6143e7c698fbc0989e6063565fd88d3dd62cfbb8:Projeto Reestruturação de Rede.tex
+\initial{E}\textbf{ste projeto vem propôr uma reestruturação do cabeamento de redes já existente em uma organização fictícia. Buscaremos definir e implantar as melhores práticas nessa nova estruturação, objetivando um melhor desempenho da rede, qualidade de comunicação e assegurar a confiabilidade na troca de informações na rede.}
 
 %% ====================================
 \begin{figure}
@@ -192,14 +187,47 @@ Por conta de tudo isso, a organização terá benefícios de curto a longo prazo
 
 
 \section{Estado atual}
-Aprente o estado atual da rede. Caso não tenha rede, desconsiderar esta seção.
+Atualmente a infraestrutura de rede possui os seguintes itens:
 
-Caso tenha rede, deixe claro:
 \begin{itemize}
-	\item os passivos de rede atuais:path panels, cabos, etc..;
-	\item as principais reclamações dos usuários. Qual o principal motivo da reestruturação? Efetue uma pesquisa junto aos colaboradores para determinar quais problemas a rede apresenta.
-	\item Observações. Analise a rede e verifique se há estruturas que não se enquadram nas normas ou que indicam suspeita de problemas.
+	\item 1 Rack Piso Fechado 44U x 870mm
+	\item 1 Nobreak HDS Maxxi Mono 6KVA
+	\item 1 Link de Fibra Óptica Copel 5Mbps FULL (Domínio)
+	\item 1 Link de Fibra Óptica Copel 12Mbps FULL (Ocioso)
+	\item 1 Link de Internet Vivo 15 Mbps (Clientes)
+	\item 2 Fibras Ópticas Monomodo para conexão interna
+	\item 2 Converter Gigabit Media Planet GT-805A 10/100/1000Base-T para 1000Base SX/LX
+	\item 1 Converter Media Bridge Planet FT-802 10/100Base-TX para 100Base-FX 
+	\item 1 Converter Media DNet DN-MCCOP SMSC25WB 10/100Base-Tx para 100Base-FX
+	\item 2 Switch 3Com Baseline 2952-SFP plus  10/100/1000- 48 portas - 1Gbit 4 X SFP
+	\item 1 Switch 3Com Baseline 2928-SFP plus 10/100/1000 - 24 portas - 1Gbit 4 X SFP
+	\item 1 Switch Enterasys SecureStack A2 A2H124 10/100 – 24 portas – 1Gbit 2 X SFP
+	\item 3 Switch D-NET DN-SF1024 10/100 - 24 portas 
+	\item 1 Switch LG LS3124A 10/100 24 portas 
+	\item 2 Wireless Controller Siemens HiPath C20
+	\item 15 Wireless Access Point  Siemens HiPath 2610 - IEEE 802.11b,a,g
+	\item 1 Access Point Dlink 300Mbps
+	\item 2 Roteadores Wireless Tplink TL-WR842ND (exclusive para o TEF) 
+	\item 1 Modem DLink DSR-2640B
+	\item 1 Access Point Ubiquiti Unifi Uap-Ir Long Range 300Mbps (Clientes e Fornecedores) 
+	\item 1 Hub LG 8P
+	\item 3 Patch Panels Furukawa - Cat6 - 24 Portas
+	\item 1 Patch Panel AMP Interconect – Cat 6 – 24 Portas
+	\item 110 Pontos de rede Cat 6
+	\item Cabeamento Furukawa Gigalan STD U/UTP Cat6
 \end{itemize}
+
+A principal reclamação dos colaboradores é a lentidão do sistema e que constantemente ficam sem acesso a internet ou ao servidor. A comunicação dentro do domínio, inclusive acesso a internet, é realizada utilizando um único link de fibra. Inclusive um link de fibra com acesso a internet que está ocioso no momento.
+
+Visualizando a estrutura, pode-se observar inicialmente que existem cabos sendo ligados aos desktops diretamente, sem a utilização de patch cord. Em alguns casos, patch cords são utilizados, porém, são de padrões diferentes. Dessa forma, não esta sendo seguido o padrão correto, visto que o cabeamento não é flexível.
+
+Outro ponto de preocupação é a distancia que os cabos percorrem dentro da organização. Pois em alguns pontos pode-se verificar que ultrapassa dos 90 metros, visto todo o caminho que os cabos percorrem até seu destino. Podemos identificar ainda, que os cabos podem sofrer interferências, pois em alguns casos passam bem próximos a equipamentos elétricos e eletrônicos de grande porte, como por exemplo, a câmara fria, e até mesmo próximo a uma caixa d’agua, que dificulta a transmissão de sinais wireless.
+
+Existe um caso que está utilizando emenda plástica para um cabo de rede, e isso não deve ocorrer. Outro caso que segue incorretamente é com relação a utilização de um hub para interligar um computador e uma impressora a rede de domínio.
+
+A identificação do cabeamento e dos pontos de rede existe parcialmente, e assim, alguns pontos e cabos possuem identificação e outros não. Isso dificulta possíveis manutenções, devido ao tempo que será atribuído para identificação do problema.
+
+O cascateamento da rede é evidente quando notamos a utilização de muitos switches. Fora do Rack, conseguimos observar 4 switches. Inclusive um roteador wireless sendo conectado a um switch, e em seguida ligado a outro roteador wireless. 
 
 
 \section{Usuários e Aplicativos}

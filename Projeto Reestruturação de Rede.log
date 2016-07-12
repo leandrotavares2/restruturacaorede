@@ -1,16 +1,16 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.5)  6 JUL 2016 21:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.11)  12 JUL 2016 18:59
 entering extended mode
 **"./Projeto Reestruturação de Rede.tex"
 ("Projeto Reestruturação de Rede.tex"
 LaTeX2e <2016/03/31> patch level 1
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrartcl.cls
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls"
 Document Class: scrartcl 2016/06/14 v3.21 KOMA-Script document class (article)
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrkbase.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
 Package: scrkbase 2016/06/14 v3.21 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrbase.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
 Package: scrbase 2016/06/14 v3.21 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
@@ -18,13 +18,13 @@ basics and keyval usage)
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrlfile.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
 Package: scrlfile 2016/06/14 v3.21 KOMA-Script package (loading files)
 
 Package scrlfile, 2016/06/14 v3.21 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) (C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\tocbasic.sty
+))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
 Package: tocbasic 2016/06/14 v3.21 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip41
 \scr@dte@tocline@numbox=\box26
@@ -47,10 +47,11 @@ Class scrartcl Info: You've used standard option `onecolumn'.
 Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
 ine 2052.
 
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrsize12pt.clo
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrsize12pt.clo"
 File: scrsize12pt.clo 2016/06/14 v3.21 KOMA-Script font size class option (12pt
 )
-) (C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\typearea.sty
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
 Package: typearea 2016/06/14 v3.21 KOMA-Script package (type area)
 
 Package typearea, 2016/06/14 v3.21 KOMA-Script package (type area)
@@ -108,7 +109,7 @@ LaTeX Info: Redefining \textsubscript on input line 4036.
 \c@table=\count87
 Class scrartcl Info: Redefining `\numberline' on input line 5049.
 \bibindent=\dimen102
-) (C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count88
 )
@@ -134,7 +135,7 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
 \MT@toks=\toks15
 \MT@count=\count90
@@ -143,8 +144,7 @@ LaTeX Info: Redefining \textls on input line 774.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
 \MT@listname@count=\count91
 
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype-pdftex.d
-ef
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
 File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 916.
@@ -152,9 +152,11 @@ LaTeX Info: Redefining \lslig on input line 916.
 \MT@outer@space=\skip55
 )
 Package microtype Info: Loading configuration file microtype.cfg.
- (C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.cfg
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
 File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
-)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/03/10 v2.15b AMS math features
 \@mathmargin=\skip56
 
@@ -259,7 +261,7 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen114
 \Gin@req@width=\dimen115
 )
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
@@ -276,7 +278,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\svgnam.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\svgnam.def"
 File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
@@ -345,7 +347,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ))
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count106
 \sf@farskip=\skip62
@@ -800,14 +802,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks29
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\datetime\datetime.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\datetime\datetime.sty"
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count120
 )
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fmtcount.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.sty"
 Package: fmtcount 2015/05/05 v3.01
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
@@ -824,17 +826,17 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@depth=\count121
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fcprefix.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fcprefix.sty"
 Package: fcprefix 2012/09/28
 
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fcnumparser.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fcnumparser.sty"
 Package: fcnumparser 2012/09/28
 \fc@digit@counter=\count122
 ))
 \c@padzeroesN=\count123
 \fc@tmpcatcode=\count124
 
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fc-english.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fc-english.def"
 File: fc-english.def 2013/08/17
 )
 \@DT@modctr=\count125
@@ -845,8 +847,7 @@ File: fc-english.def 2013/08/17
 \@DT@loopN=\count130
 \@DT@X=\count131
 )
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\datetime\datetime-defaults.s
-ty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\datetime\datetime-defaults.sty"
 Package: datetime-defaults 2013/09/10
 )
 \@day=\count132
@@ -869,7 +870,7 @@ put line 308.
 LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks32
 \dt@b=\toks33
-) (C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\sectsty\sectsty.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\sectsty\sectsty.sty"
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
@@ -881,7 +882,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              Nevertheless, using requested
 (scrartcl)              package `fancyhdr' on input line 48.
 
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip67
 \f@ncyO@elh=\skip68
 \f@ncyO@erh=\skip69
@@ -892,10 +893,10 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 \f@ncyO@olf=\skip74
 \f@ncyO@orf=\skip75
 )
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\lastpage\lastpage.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\lettrine\lettrine.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lettrine\lettrine.sty"
 File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
 \c@DefaultLines=\count147
 \c@DefaultDepth=\count148
@@ -921,8 +922,8 @@ File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
 \LettrineDepth=\dimen160
 
 Loading lettrine.cfg
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\lettrine\lettrine.cfg))
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\titling\titling.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lettrine\lettrine.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titling\titling.sty"
 Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip76
 \thanksmargin=\skip77
@@ -956,11 +957,11 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-cmr.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count151
 \scratchdimen=\dimen161
@@ -1032,23 +1033,22 @@ Package microtype Info: Loading generic settings for font family
 <utfpr.jpeg, id=1, 97.36375pt x 35.13126pt>
 File: utfpr.jpeg Graphic file (type jpg)
  <use utfpr.jpeg>
-Package pdftex.def Info: utfpr.jpeg used on input line 142.
+Package pdftex.def Info: utfpr.jpeg used on input line 141.
 (pdftex.def)             Requested size: 97.3635pt x 35.13115pt.
  [1
 
 
-{C:/Users/Sid/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./utfpr.jpeg>
-]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./utfpr.jpeg>]
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 150.
+ne 149.
 
-Package tocbasic Info: character protrusion at lof deactivated on input line 15
-0.
+Package tocbasic Info: character protrusion at lof deactivated on input line 14
+9.
 ("Projeto Reestruturação de Rede.lof")
 \tf@lof=\write3
 \openout3 = `"Projeto Reestruturação de Rede.lof"'.
@@ -1060,17 +1060,17 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 153.
+ne 152.
 
 Package tocbasic Info: character protrusion at lot deactivated on input line 15
-3.
+2.
 ("Projeto Reestruturação de Rede.lot"
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msa.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 2.
@@ -1078,7 +1078,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(C:\Users\Sid\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msb.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ))
 \tf@lot=\write4
@@ -1088,14 +1088,14 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 158.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 157.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
  [2
 
 ]
@@ -1105,10 +1105,10 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 160.
+ne 159.
 
-Package tocbasic Info: character protrusion at toc deactivated on input line 16
-0.
+Package tocbasic Info: character protrusion at toc deactivated on input line 15
+9.
 ("Projeto Reestruturação de Rede.toc")
 \tf@toc=\write5
 \openout5 = `"Projeto Reestruturação de Rede.toc"'.
@@ -1117,13 +1117,19 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 16
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 185.
- [4
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 178.
 
-] (tab1.tex
-<fig1.png, id=26, 608.2725pt x 423.5825pt>
+Overfull \hbox (1.38072pt too wide) in paragraph at lines 182--183
+[]\OT1/cmr/m/n/12 (-20) Menor custo de manutenc~ao: Es-tando com a rede cer-ti
+-fi-cada, o custo com manutenc~oes
+ []
+
+[4
+
+] [5] [6] (tab1.tex <fig1.png, id=32, 608.2725pt x 423.5825pt>
 File: fig1.png Graphic file (type png)
- <use fig1.png>
+
+<use fig1.png>
 Package pdftex.def Info: fig1.png used on input line 8.
 (pdftex.def)             Requested size: 121.65234pt x 84.715pt.
 File: fig1.png Graphic file (type png)
@@ -1131,13 +1137,12 @@ File: fig1.png Graphic file (type png)
 Package pdftex.def Info: fig1.png used on input line 9.
 (pdftex.def)             Requested size: 121.65234pt x 84.715pt.
 )
-[5 <./fig1.png>]
-Overfull \hbox (84.47485pt too wide) in paragraph at lines 242--247
+Overfull \hbox (84.47485pt too wide) in paragraph at lines 284--289
 []\OT1/cmr/m/n/12 (-20) Segue uma relac~ao de fer-ra-men-tas: http://asana.com
 /, https://trello.com/, http://www.ganttproject.biz/,
  []
 
-[6] ("Projeto Reestruturação de Rede.bbl"
+[7 <./fig1.png>] ("Projeto Reestruturação de Rede.bbl"
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -1148,13 +1153,13 @@ ne 1.
 
 ) 
 AED: lastpage setting LastPage
-[7] ("Projeto Reestruturação de Rede.aux") ) 
+[8] ("Projeto Reestruturação de Rede.aux") ) 
 Here is how much of TeX's memory you used:
- 11416 strings out of 493335
- 182639 string characters out of 3136687
- 495921 words of memory out of 3000000
- 14630 multiletter control sequences out of 15000+200000
- 25305 words of font info for 96 fonts, out of 3000000 for 9000
+ 11430 strings out of 493335
+ 182321 string characters out of 3136677
+ 497921 words of memory out of 3000000
+ 14632 multiletter control sequences out of 15000+200000
+ 25599 words of font info for 102 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,13n,77p,8847b,467s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.
@@ -1172,10 +1177,10 @@ s/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8
 a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "Projeto Reestruturação de Rede.pdf" (7 pages, 190395 bytes
+Output written on "Projeto Reestruturação de Rede.pdf" (8 pages, 195712 bytes
 ).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
+ 90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  28683 words of extra memory for PDF output out of 29859 (max. 10000000)
 

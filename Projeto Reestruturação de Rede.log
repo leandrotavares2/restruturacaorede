@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.11)  12 JUL 2016 18:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.11)  20 JUL 2016 18:35
 entering extended mode
 **"./Projeto Reestruturação de Rede.tex"
 ("Projeto Reestruturação de Rede.tex"
@@ -1049,22 +1049,7 @@ ne 149.
 
 Package tocbasic Info: character protrusion at lof deactivated on input line 14
 9.
-("Projeto Reestruturação de Rede.lof")
-\tf@lof=\write3
-\openout3 = `"Projeto Reestruturação de Rede.lof"'.
-
-
-
-Class scrartcl Warning: incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 152.
-
-Package tocbasic Info: character protrusion at lot deactivated on input line 15
-2.
-("Projeto Reestruturação de Rede.lot"
+("Projeto Reestruturação de Rede.lof"
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -1081,6 +1066,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ))
+\tf@lof=\write3
+\openout3 = `"Projeto Reestruturação de Rede.lof"'.
+
+
+
+Class scrartcl Warning: incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 152.
+
+Package tocbasic Info: character protrusion at lot deactivated on input line 15
+2.
+("Projeto Reestruturação de Rede.lot")
 \tf@lot=\write4
 \openout4 = `"Projeto Reestruturação de Rede.lot"'.
 
@@ -1126,10 +1126,16 @@ Overfull \hbox (1.38072pt too wide) in paragraph at lines 182--183
 
 [4
 
-] [5] [6] (tab1.tex <fig1.png, id=32, 608.2725pt x 423.5825pt>
-File: fig1.png Graphic file (type png)
+] [5] [6] <Fig_estrutura_predial.png, id=32, 1046.40938pt x 643.6547pt>
+File: Fig_estrutura_predial.png Graphic file (type png)
 
-<use fig1.png>
+<use Fig_estrutura_predial.png>
+Package pdftex.def Info: Fig_estrutura_predial.png used on input line 277.
+(pdftex.def)             Requested size: 455.24417pt x 280.017pt.
+ [7 <./Fig_estrutura_predial.png>] (tab1.tex
+<fig1.png, id=41, 608.2725pt x 423.5825pt>
+File: fig1.png Graphic file (type png)
+ <use fig1.png>
 Package pdftex.def Info: fig1.png used on input line 8.
 (pdftex.def)             Requested size: 121.65234pt x 84.715pt.
 File: fig1.png Graphic file (type png)
@@ -1137,12 +1143,13 @@ File: fig1.png Graphic file (type png)
 Package pdftex.def Info: fig1.png used on input line 9.
 (pdftex.def)             Requested size: 121.65234pt x 84.715pt.
 )
-Overfull \hbox (84.47485pt too wide) in paragraph at lines 284--289
+[8 <./fig1.png>]
+Overfull \hbox (84.47485pt too wide) in paragraph at lines 317--322
 []\OT1/cmr/m/n/12 (-20) Segue uma relac~ao de fer-ra-men-tas: http://asana.com
 /, https://trello.com/, http://www.ganttproject.biz/,
  []
 
-[7 <./fig1.png>] ("Projeto Reestruturação de Rede.bbl"
+("Projeto Reestruturação de Rede.bbl"
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -1151,36 +1158,36 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 1.
 
-) 
+[9]) 
 AED: lastpage setting LastPage
-[8] ("Projeto Reestruturação de Rede.aux") ) 
+[10] ("Projeto Reestruturação de Rede.aux") ) 
 Here is how much of TeX's memory you used:
- 11430 strings out of 493335
- 182321 string characters out of 3136677
- 497921 words of memory out of 3000000
- 14632 multiletter control sequences out of 15000+200000
- 25599 words of font info for 102 fonts, out of 3000000 for 9000
+ 11446 strings out of 493335
+ 182564 string characters out of 3136677
+ 497931 words of memory out of 3000000
+ 14639 multiletter control sequences out of 15000+200000
+ 25795 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,13n,77p,8847b,467s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.
-9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmbxti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8
-a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "Projeto Reestruturação de Rede.pdf" (8 pages, 195712 bytes
-).
+ 54i,13n,77p,8847b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2
+.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmbxti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb
+8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on "Projeto Reestruturação de Rede.pdf" (10 pages, 716386 byte
+s).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 28683 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 28688 words of extra memory for PDF output out of 29859 (max. 10000000)
 

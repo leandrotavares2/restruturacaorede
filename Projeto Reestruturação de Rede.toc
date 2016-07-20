@@ -5,16 +5,16 @@
 \contentsline {section}{\numberline {3}Usu\IeC {\'a}rios e Aplicativos}{6}
 \contentsline {subsection}{\numberline {3.1}Usu\IeC {\'a}rios}{6}
 \contentsline {subsection}{\numberline {3.2}Aplicativos}{6}
-\contentsline {section}{\numberline {4}Estrutura predial existente}{6}
-\contentsline {section}{\numberline {5}Planta L\IeC {\'o}gica - Elementos estruturados}{6}
-\contentsline {subsection}{\numberline {5.1}Estado atual}{6}
-\contentsline {subsection}{\numberline {5.2}Topologia}{6}
-\contentsline {subsection}{\numberline {5.3}Encaminhamento}{7}
-\contentsline {subsection}{\numberline {5.4}Memorial descritivo}{7}
-\contentsline {subsection}{\numberline {5.5}Identifica\IeC {\c c}\IeC {\~a}o dos cabos}{7}
-\contentsline {section}{\numberline {6}Implanta\IeC {\c c}\IeC {\~a}o}{7}
-\contentsline {section}{\numberline {7}Plano de certifica\IeC {\c c}\IeC {\~a}o}{8}
-\contentsline {section}{\numberline {8}Plano de manuten\IeC {\c c}\IeC {\~a}o}{8}
-\contentsline {subsection}{\numberline {8.1}Plano de expans\IeC {\~a}o}{8}
-\contentsline {section}{\numberline {9}Or\IeC {\c c}amento}{8}
-\contentsline {section}{\numberline {10}Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{8}
+\contentsline {section}{\numberline {4}Estrutura predial existente}{7}
+\contentsline {section}{\numberline {5}Planta L\IeC {\'o}gica - Elementos estruturados}{8}
+\contentsline {subsection}{\numberline {5.1}Estado atual}{8}
+\contentsline {subsection}{\numberline {5.2}Topologia}{8}
+\contentsline {subsection}{\numberline {5.3}Encaminhamento}{8}
+\contentsline {subsection}{\numberline {5.4}Memorial descritivo}{8}
+\contentsline {subsection}{\numberline {5.5}Identifica\IeC {\c c}\IeC {\~a}o dos cabos}{8}
+\contentsline {section}{\numberline {6}Implanta\IeC {\c c}\IeC {\~a}o}{8}
+\contentsline {section}{\numberline {7}Plano de certifica\IeC {\c c}\IeC {\~a}o}{9}
+\contentsline {section}{\numberline {8}Plano de manuten\IeC {\c c}\IeC {\~a}o}{9}
+\contentsline {subsection}{\numberline {8.1}Plano de expans\IeC {\~a}o}{9}
+\contentsline {section}{\numberline {9}Or\IeC {\c c}amento}{9}
+\contentsline {section}{\numberline {10}Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{9}

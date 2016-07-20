@@ -231,22 +231,55 @@ O cascateamento da rede é evidente quando notamos a utilização de muitos swit
 
 
 \section{Usuários e Aplicativos}
-Explique nesta seção os usuários atuais e o perfil de crescimento, se por exemplo, há estimativa na evolução da empresa no que tange a quantidade de usuários, pontos de redes, equipamentos.
+Do quadro total de funcionários presentes na organização, atualmente conta com 70 usuários ativos, que possuem acesso a um dos sistema utilizados. A empresa está em crescimento de vendas, contudo, não existe tendência em aumentar o número de usuários. Consequentemente, pontos de redes já existentes poderão ser eliminados ou remanejados.
+
+Com relação aos equipamentos, existe uma necessidade para aumentar a disponibilidade de serviços e a qualidade da internet para clientes. Assim, será necessário realizar um levantamento dos equipamentos que poderão ser utilizados para suprir essa necessidade.
+
  
 
 \subsection{Usuários}
-Crie uma relação da quantidade, perfil de usuários de seu projeto.
+Conforme já mencionado anteriormente, a organização possui 70 usuários ativos. Grande parte desses colaboradores são jovens, entre 18 a 24 anos, e utilizam principalmente o sistema de vendas no PDV (Ponto de Venda).
+
+Os outros colaboradores, utilizam o software de ERP. O software utilizado é acessado por conexão via Terminal Service. Os usuários desse software, são funcionários que já utilizaram o sistema de vendas em algum momento anterior, e possuem portanto maior tempo de experiência dentro da organização.
+
 
 \subsection{Aplicativos}
-Crie uma relação dos aplicativos e seus níveis críticos de uso.
+Os serviços e aplicativos necessários atualmente para que o negócio mantenha-se em funcionamento foram separados em Serviços Críticos e Aplicativos Críticos, e serão descritos abaixo:
+\begin{itemize}
+	\item SERVIÇOS CRÍTICOS
+	
+		1 - Acesso à Internet/intranet: O acesso a rede internet/intranet é fundamental para realização da comunicação entre os pontos de venda e o servidor central em Curitiba, e também, na comunicação com o software ERP;
+		
+		2 - DHCP: Alguns dispositivos estão configurados para receber automaticamente endereçamento do servidor de DHCP;
+		
+		3 - E-mail: Fornecedores, clientes e colaboradores se comunicam constantemente pelo email corporativo, dessa forma é necessários estar sempre ativo;
+		
+		4 - Servidor de Arquivos: Cada colaborador pode armazenar seus arquivos que julga importante nesse servidor, e assim, ter uma cópia salva em local seguro.
+		
+	\item APLICATIVOS CRÍTICOS
+	
+		1 - Sistema de Vendas : Cada ponto de venda possui instalado o sistema de vendas em seu hard disk, que comunica por meio da rede com a central em Curitiba. Um desastre envolvendo esse sistema, impossibilita totalmente a operação da empresa;
+		
+		2 - Sistema de Transferência Eletrônica de Fundo (TEF): Responsável pela efetivação dos pagamentos por cartão de crédito e débito. Sua paralização trás péssimos resultados para a organização, visto que uma quantidade expressiva dos pagamentos são realizados utilizando cartão;
+		
+		3 - Sistema de Enterprise Resource Planning (ERP): Realiza todo o controle fiscal, estoque, financeiro. Assim, sua indisponibilidade pode atingir todos os colaboradores da empresa, inclusive clientes.
+		
+\end{itemize}
 
 
 \section{Estrutura predial existente}
 
-Explique aqui a planta física dos prédios
-Pode ser anexada, em escala ou não.
 
-Deve conter uma descrição geral, indicando a possível distância entre os pontos de rede e restrições de instalação.
+Planta Fisica da empresa na figura \ref{Fig_estrutura_predial}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{Fig_estrutura_predial}
+	\caption{Imagem da planta física da empresa}
+	\label{Fig_estrutura_predial}
+\end{figure}
+
+Continuar...
 
 \section{Planta Lógica - Elementos estruturados}
 

@@ -270,7 +270,7 @@ Os serviços e aplicativos necessários atualmente para que o negócio mantenha-
 \section{Estrutura predial existente}
 
 
-Planta Fisica da empresa na figura \ref{Fig_estrutura_predial}
+Planta Física da empresa na figura \ref{Fig_estrutura_predial}
 
 \begin{figure}[h!]
 	\centering
@@ -283,21 +283,41 @@ Continuar...
 
 \section{Planta Lógica - Elementos estruturados}
 
-\subsection{Estado atual}
-Deve ter a planta atual, se for o caso
 
 \subsection{Topologia}
-Proposta futura, proposta após implantação.
-Deve conter o diagrama da rede. Atente-se a redundância  e ligações truncadas.
-Deve explicar todos termos e componentes utilizados nestas plantas. Por exemplo: entrance facility, work area, horizontal cabling, etc..
 
-Todos os elementos das figuras devem ser explicados. 
-Crie esboço da configuração dos racks e brackets. Explique cada um dos componentes. Você pode criar uma tabela contendo figuras dentro, ou criar uma tabela e incluí-la como imagem. Por exemplo, verifique a tabela \ref{tab1}.
 
-\input{tab1}
+A proposta para a nova infraestrutura abordará inicialmente a alteração do caminho por onde a eletrocalha passa, para evitar a interferência causada por agentes externos. Os cabos que possuírem encaminhamento maior que 90 metros serão realocados em um switch mais próximo, bem como os cabos que possuem emendas.
+
+Todo o cabeamento da organização será padronizado em conforme norma EIA/TIA 568-A. Assim, serão refeitos todos os conectores RJ45 fêmea. Para interligar os hosts aos conectores RJ45 fêmea, bem como os patch panels aos switchs, serão adquiridos patch cords já certificados.
+
+O cascateamento existente será eliminado, realizando um novo encaminhamento de cabos, e assim os hubs serão descartados.
+
+Para aumentar o desempenho da rede, os switchs com velocidade de até 100Mbit serão substituídos por switchs de 1Gbit.
+
+Com o objetivo de aumentar a disponibilidade da internet, será ativado o link de fibra já existente.
+
+Após isso, será realizada a identificação do cabeamento e dos pontos de rede existentes e também dos que serão incluídos.
+
+Por fim, realizaremos a certificação da rede, e dessa forma, evitar possíveis problemas relacionados a infraestrutura de rede \ref{DiagramaTopologiaRede}
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{DiagramaTopologiaRede}
+	\caption{Topologia da Rede}
+	\label{DiagramaTopologiaRede}
+\end{figure}
+
 
 \subsection{Encaminhamento}
-Eletrodutos, calhas, e qualquer material em que os cabos serão alojados/alocados.
+
+
+
+O encaminhamento dos cabos é realizado por meio de eletrocalhas e eletrodutos. A eletrocalha principal que segue por todo o comprimentos da edificação, fornece suporte para a passagem do cabeamento, bem como suas ramificações. Ela mede 30cm de largura, as ramificações possuem 20cm de largura e leva os cabos até os setores. Chegando no setor, o cabo segue para o ponto de rede por meio de um eletroduto.
+
+
+
 
 \subsection{Memorial descritivo}
 

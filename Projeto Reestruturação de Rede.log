@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.11)  8 AUG 2016 20:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.11)  9 AUG 2016 14:47
 entering extended mode
 **"./Projeto Reestruturação de Rede.tex"
 ("Projeto Reestruturação de Rede.tex"
@@ -1137,15 +1137,19 @@ Package pdftex.def Info: Fig_estrutura_predial.png used on input line 277.
 File: DiagramaTopologiaRede.png Graphic file (type png)
 
 <use DiagramaTopologiaRede.png>
-Package pdftex.def Info: DiagramaTopologiaRede.png used on input line 310.
-(pdftex.def)             Requested size: 192.37886pt x 284.53072pt.
- [8 <./DiagramaTopologiaRede.png>]
-Overfull \hbox (84.47485pt too wide) in paragraph at lines 342--347
+Package pdftex.def Info: DiagramaTopologiaRede.png used on input line 319.
+(pdftex.def)             Requested size: 173.14345pt x 256.08131pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8]
+Overfull \hbox (84.47485pt too wide) in paragraph at lines 351--356
 []\OT1/cmr/m/n/12 (-20) Segue uma relac~ao de fer-ra-men-tas: http://asana.com
 /, https://trello.com/, http://www.ganttproject.biz/,
  []
 
-[9] ("Projeto Reestruturação de Rede.bbl"
+[9 <./DiagramaTopologiaRede.png>] ("Projeto Reestruturação de Rede.bbl"
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -1158,11 +1162,11 @@ ne 1.
 AED: lastpage setting LastPage
 [10] ("Projeto Reestruturação de Rede.aux") ) 
 Here is how much of TeX's memory you used:
- 11445 strings out of 493335
- 182632 string characters out of 3136677
+ 11449 strings out of 493335
+ 182662 string characters out of 3136677
  497931 words of memory out of 3000000
  14635 multiletter control sequences out of 15000+200000
- 25942 words of font info for 109 fonts, out of 3000000 for 9000
+ 26040 words of font info for 111 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,11n,77p,8847b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2
@@ -1180,7 +1184,7 @@ ts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb
 8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "Projeto Reestruturação de Rede.pdf" (10 pages, 729379 byte
+Output written on "Projeto Reestruturação de Rede.pdf" (10 pages, 730015 byte
 s).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)

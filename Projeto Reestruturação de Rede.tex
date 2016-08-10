@@ -302,15 +302,11 @@ Todo o cabeamento da organização será padronizado em conforme norma EIA/TIA 5
 
 O cascateamento existente será eliminado, realizando um novo encaminhamento de cabos, e assim os hubs serão descartados.
 
-Para aumentar o desempenho da rede, os switchs com velocidade de até 100Mbit serão substituídos por switchs de 1Gbit.
+Para aumentar o desempenho da rede, os switchs com velocidade de até 100Mbit serão substituídos por switchs de 1Gbit. 
 
-Com o objetivo de aumentar a disponibilidade da internet, será ativado o link de fibra já existente.
+Com o objetivo de aumentar a disponibilidade da internet, será ativado o link de fibra já existente. Após isso, será realizada a identificação do cabeamento e dos pontos de rede existentes e também dos que serão incluídos. Por fim, realizaremos a certificação da rede, e dessa forma, evitar possíveis problemas relacionados a infraestrutura de rede.
 
-Após isso, será realizada a identificação do cabeamento e dos pontos de rede existentes e também dos que serão incluídos.
-
-Por fim, realizaremos a certificação da rede, e dessa forma, evitar possíveis problemas relacionados a infraestrutura de rede.
-
-
+Continuar explicação figura \ref{DiagramaTopologiaRede}
 
 
 
@@ -321,8 +317,21 @@ Por fim, realizaremos a certificação da rede, e dessa forma, evitar possíveis
 	\label{DiagramaTopologiaRede}
 \end{figure}
 
+	Inicialmente foi identificado o rack principal como rack 1. No momento atual, esse rack atende a demanda da empresa. Contudo, o local atende a uma possivel expansão para alocar outros racks, se necessário.
 
-Continuar explicação figura \ref{DiagramaTopologiaRede}
+	O rack 1, demonstrado na figura \ref{rack1_projeto}, o roteador principal ocupará o primeiro espaço. Em seguida teremos os dois switches core responsáveis pela disponibilidade da rede local. Logo abaixo, os switches 1 e 2 para interneconectar todos os dispositivos de rede e hosts, cada um com 48 portas.
+	Logo após, temos os 4 patch panels, cada um com 24 portas, aonde será conectado todo o cabeamento horizontal, interligando aos switches, utilizando os patch cords. Abaixo temos os servidores e em seguida, os controladores wireless. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=9cm,height=9cm,keepaspectratio]{rack1_projeto}
+	\caption{Imagem rack}
+	\label{rack1_projeto}
+\end{figure}
+
+
+
+
 
 \subsection{Encaminhamento}
 
@@ -335,9 +344,23 @@ O encaminhamento dos cabos é realizado por meio de eletrocalhas e eletrodutos. 
 
 \subsection{Memorial descritivo}
 
-Relacione todos os equipamentos passivos que serão utilizados, tipo, fabricante, quantidade.
+O memorial descritivo contendo os passivos de rede que serão utilizados, podem ser observados na figura \ref{passivos_rede}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=14cm,height=9cm,keepaspectratio]{passivos_rede}
+	\caption{Demonstrativo dos passivos de rede}
+	\label{passivos_rede}
+\end{figure}
+
 
 \subsection{Identificação dos cabos}
+
+A identificação do cabeamento será de grande importância para identificar pontualmente possíveis problemas e para organização dos cabos. 
+
+Dessa forma, a identificação dos cabos será realizada utilizando o modelo PTXXX, onde PT identificará o cabo de rede, em seguida a sequencia XXX representará o número do cabo, que será único. 
+
+Sabendo disso, os cabos serão identificados como: PT001, PT002, PT003, ..., PTxyz.
 
 \section{Implantação}
 Estabeleça um cronograma de implantação:
